@@ -10,6 +10,10 @@ namespace CSClass
     {
         static void Main(string[] args)
         {
+            Car car = new Car();
+            
+            car.SetInTime(); // 메소드 첫 글자는 대문자
+            car.SetOutTime();
         }
     }
 }
