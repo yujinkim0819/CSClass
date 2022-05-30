@@ -28,8 +28,7 @@ namespace CSClass
             Console.WriteLine(random.NextDouble() * 10);
 
             /*
-            List<int> list = new List<int>();
-            
+            List<int> list = new List<int>();            
             list.Add(52);
             list.Add(3);
             list.Add(6);
@@ -45,6 +44,14 @@ namespace CSClass
             {
                 Console.WriteLine("Count : " + list.Count + "\t" + item);
             }
+
+            Console.WriteLine(Math.Abs(-31415));
+            Console.WriteLine(Math.Ceiling(-3.141));
+            Console.WriteLine(Math.Floor(3.141));
+            Console.WriteLine(Math.Round(3.141, 2)); // Round 메서드는 소수점 자리 개수도 삽입 가능!!
+            Console.WriteLine(Math.Max(3, 14));
+            Console.WriteLine(Math.Min(3, 14));
+            Console.WriteLine(Math.PI);
 
         }
     }
