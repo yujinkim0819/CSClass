@@ -52,6 +52,9 @@ namespace CSClass
             Console.WriteLine(Math.Max(3, 14));
             Console.WriteLine(Math.Min(3, 14));
             Console.WriteLine(Math.PI);
+            
+            // 새로운 파일 생성
+            Product product = new Product();
 
         }
     }
