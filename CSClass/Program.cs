@@ -52,9 +52,37 @@ namespace CSClass
             Console.WriteLine(Math.Max(3, 14));
             Console.WriteLine(Math.Min(3, 14));
             Console.WriteLine(Math.PI);
-            
+
             // 새로운 파일 생성
+            /*
             Product product = new Product();
+            product.name = "고구마";
+            product.price = 1000;
+            Console.WriteLine(product.name + " : " + product.price );
+            */
+
+            // 모든 값을 하나하나 세팅하지 않아도 됨 - 편리
+            Product productA = new Product()
+            {
+                name = "감자",
+                price = 2000
+            };
+            
+            Product productB = new Product()
+            {
+                price = 6000,
+                name = "고구마"                
+            };
+
+            Product productC = new Product()
+            {
+                name = "옥수수"
+            };
+
+            Console.WriteLine(productA);
+            Console.WriteLine(productB);
+            Console.WriteLine(productC);
+
 
         }
     }
