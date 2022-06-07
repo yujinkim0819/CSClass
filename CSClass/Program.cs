@@ -139,6 +139,13 @@ namespace CSClass
             Console.WriteLine(MyMath.Abs(52L)); // Long형보다 double형이 크기 때문에 가능
 
 
+            Product productX = new Product("감자", 2000);
+            Product productY = new Product("고구마", 3000);
+
+            Console.WriteLine(productX);
+            Console.WriteLine(productY);
+            Console.WriteLine(Product.counter + "개 생성되었습니다");
+
         }
     }
 }
