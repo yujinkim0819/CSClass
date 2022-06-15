@@ -4,7 +4,12 @@ namespace CSClass
 {
     public class Animal
     {
-        int Age;
+        public int Age;
+
+        public Animal()
+        {
+            Age = 0;
+        }
 
         public void Eat()
         {
