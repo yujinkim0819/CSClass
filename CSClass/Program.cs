@@ -213,6 +213,8 @@ namespace CSClass
                 if (cat != null) { cat.Meow(); }
             }
 
+            Child ChildA = new Child();
+            Child ChildB = new Child("string");
         }
     }
 }
