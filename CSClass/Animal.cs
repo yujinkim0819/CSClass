@@ -11,7 +11,8 @@ namespace CSClass
             Age = 0;
         }
 
-        public void Eat()
+        // 하이딩 가능, 오버로딩 가능: 자식의 행동에 따라서..
+        public virtual void Eat()
         {
             Console.WriteLine("냠냠");
         }
